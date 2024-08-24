@@ -1,0 +1,75 @@
+body {
+  background-color: rgb(233, 174, 65);
+  display: flex;
+  flex-direction: column;
+}
+h1 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(98, 160, 70);
+  font-size: 50px;
+  margin-bottom: 50px;
+  margin-top: 50px;
+}
+
+.form {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+
+.inputTask {
+  width: 350px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: rgb(233, 174, 65);
+  border-color: rgb(98, 160, 70);
+  padding: 7px;
+  margin-right: 40px;
+}
+
+.button {
+  font-size: 30px;
+    color: rgb(98, 160, 70);
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.button:hover {
+  background-color: rgb(98, 160, 70);
+  color: black;
+}
+.listWrapper {
+  display: flex;
+  margin-left: 250px;
+}
+
+.ul {
+  margin-left: 200px;
+  padding: 15px;
+  list-style: none;
+  width: 70%;
+  text-decoration: underline;
+}
+.li {
+  font-size: 40px;
+  margin: 20px;
+  width: 50%;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+
+.image {
+  display: flex;
+  justify-content: end;
+  max-width: 200px;
+  background-color:  rgb(233, 174, 65);
+}
+
+.input {
+  min-width: 25px;
+  height: 25px;
+  border-radius: 5px;
+  background-color: brown;
+}
