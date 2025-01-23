@@ -1,5 +1,5 @@
 body {
-  background-color: rgb(233, 174, 65);
+  background-color: rgb(245, 188, 83);
   display: flex;
   flex-direction: column;
 }
@@ -7,7 +7,7 @@ h1 {
   display: flex;
   justify-content: center;
   align-items: center;
-  color: rgb(98, 160, 70);
+  color: rgb(86, 158, 52);
   font-size: 50px;
   margin-bottom: 50px;
   margin-top: 50px;
@@ -68,15 +68,33 @@ h1 {
   display: flex;
   justify-content: end;
   max-width: 200px;
-  background-color:  rgb(233, 174, 65);
+  background-color:  rgb(245, 188, 83);
 }
 
 .done {
   display: flex;
   align-items: center;
-  color: rgb(247, 107, 107);
-  width: 20px;
-  height: 20px;
+  accent-color: rgb(132, 109, 233);
+  width: 40px;
+  height: 40px;
   margin: 0;
   margin-left: 55px;
+}
+
+.button_clear {
+  display: flex;
+  justify-content: center;
+}
+
+.buttonClear_wrapper{
+  display: flex;
+  justify-content: center;
+}
+
+.noTask {
+  color: rgb(100, 116, 93);
+  font-size: 30px;
+  margin-top: 50px;
+  display: flex;
+  justify-content: center;
 }

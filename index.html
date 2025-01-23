@@ -4,16 +4,20 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./assets/styles/style.css">
-  <title>ToDo List</title>
+  <title>Список задач</title>
 </head>
 <body>
-  <h1>ToDo List</h1>
+  <h1>Список задач</h1>
   <div class="wrapper">
-    <input placeholder="write the task" type="text" id="input"> 
-    <button class="button"> Add task </button>
+    <input placeholder="Введите задачу" type="text" id="input"> 
+    <button class="button" id="addButton"> Добавить задачу </button>
   </div>
+  <span class="noTask">Задачи отсутствуют</span>
     <ul class="ul">
   </ul>
+  </div>
+  <div class="buttonClear_wrapper">
+    <button class="button button_clear" type="reset" id="clearButton" disabled> Очистить список </button>
   </div>
   <img class="image" src="./assets/img/flowers-white.png" alt="flower">
 <script src="./assets/script.js" >
