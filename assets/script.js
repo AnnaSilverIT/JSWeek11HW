@@ -19,10 +19,10 @@ addBtn.onclick = () => {
   newTask.style.cursor = 'pointer'
   noTask.style.display = 'none'
   clearBtn.disabled = false
-  // localStorage.setItem('key', JSON.stringify(input.value))
-  let inpValue = input.value
-  let arr = {text: inpValue}
-  localStorage.setItem('taskslist', JSON.stringify(arr))
+  localStorage.setItem('key', input.value)
+  localStorage.setItem('taskslist', JSON.stringify(document.querySelector('#input').value))
+  // let item = input.value
+  // localStorage.taskslist = JSON.stringify(item)
 }
 }
 
@@ -33,3 +33,10 @@ clearBtn.addEventListener('click' , function(e) {
   result.innerHTML = ''
 clearBtn.disabled= true
 }) 
+
+// function addToCart(){
+// 	const items = JSON.parse(localStorage.getItem('taskslist'))
+// 	items += input.value
+// 	localStorage.setItem('taskslist', JSON.stringify(items))
+// }
+
